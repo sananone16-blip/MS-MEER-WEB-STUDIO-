@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MS Meer Web Studio | Premium Website & App Design</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <div class="brand">
+    <img src="logo.png" alt="MS Meer Web Studio">
+    <span>MS Meer <b>Web Studio</b></span>
+  </div>
+  <div class="nav-links">
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#review">Reviews</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div>
+    <span class="badge">⚡ 14 Days Delivery</span>
+    <h1>Premium Websites That <span>Sell.</span></h1>
+    <p>MS Meer Studio se apni business website banwaye. Fast, professional & affordable — designed to convert visitors into customers.</p>
+  </div>
+  <div class="hero-img">
+    <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=800">
+  </div>
+</section>
+
+<section id="services" class="services-wrap">
+  <h2>Our Elite Capabilities</h2>
+  <p class="section-sub">Tailored digital assets built cleanly for your business.</p>
+  <div class="services">
+    <div class="card">
+      <div class="card-icon">🌐</div>
+      <h3>Business Website</h3>
+      <p>Fast, SEO-ready website that builds trust and drives leads.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🛒</div>
+      <h3>E-commerce Store</h3>
+      <p>Online dukan with Mashrik Bank payment integration.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">📱</div>
+      <h3>App-Style UI/UX</h3>
+      <p>Clean, modern interfaces designed for fast, effortless use.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <h2>Our Work</h2>
+  <p class="portfolio-sub">Kuch websites jo humne clients kai liye banai hain.</p>
+  <div class="portfolio-grid">
+    <div class="portfolio-card">
+      <img src="https://image.thum.io/get/width/900/crop/700/https://sananone16-blip.github.io/DISTRICT-9-MARADAN/" alt="District 9 Delivery Website Screenshot" loading="lazy">
+      <div class="portfolio-info">
+        <h3>District 9 Delivery</h3>
+        <p>Food & parcel delivery website with online menu, order system and reviews section — Mardan.</p>
+        <a class="btn btn-accent" href="https://sananone16-blip.github.io/DISTRICT-9-MARADAN/" target="_blank">View Live Site →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="pricing">
+  <h2>Transparent Pricing</h2>
+  <p class="section-sub light">Pick a package below to get started today.</p>
+  <div class="price-grid">
+
+    <div class="price-card">
+      <h4>Starter</h4>
+      <span class="off-badge">33% OFF</span>
+      <p class="old-price">Rs 67,000 <span class="old-usd">($241)</span></p>
+      <h2>Rs 45,000 <span class="usd">($162)</span></h2>
+      <ul class="price-features">
+        <li>1-Page Business Website</li>
+        <li>Mobile Responsive Layout</li>
+        <li>2 Revision Passes</li>
+      </ul>
+      <a href="https://wa.me/923410784488" class="btn btn-accent">Order Now</a>
+    </div>
+
+    <div class="price-card popular">
+      <span class="ribbon">Most Popular</span>
+      <h4>Business</h4>
+      <span class="off-badge">33% OFF</span>
+      <p class="old-price">Rs 97,000 <span class="old-usd">($349)</span></p>
+      <h2>Rs 65,000 <span class="usd">($234)</span></h2>
+      <ul class="price-features">
+        <li>Up to 5 Pages</li>
+        <li>Mashrik Bank Ready</li>
+        <li>SEO Basics Included</li>
+        <li>4 Revision Passes</li>
+      </ul>
+      <a href="https://wa.me/923410784488" class="btn btn-accent">Order Now</a>
+    </div>
+
+    <div class="price-card">
+      <h4>Premium</h4>
+      <span class="off-badge">33% OFF</span>
+      <p class="old-price">Rs 119,000 <span class="old-usd">($429)</span></p>
+      <h2>Rs 80,000 <span class="usd">($288)</span></h2>
+      <ul class="price-features">
+        <li>Full E-commerce Store</li>
+        <li>Admin Dashboard</li>
+        <li>Priority Support</li>
+      </ul>
+      <a href="https://wa.me/923410784488" class="btn btn-accent">Order Now</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="review" class="review">
+  <h2>Your Feedback Helps MS Meer Improve</h2>
+  <div class="review-card">
+    <div class="stars" id="stars">
+      <span class="star" data-value="1">★</span>
+      <span class="star" data-value="2">★</span>
+      <span class="star" data-value="3">★</span>
+      <span class="star" data-value="4">★</span>
+      <span class="star" data-value="5">★</span>
+    </div>
+    <p id="ratingText">Select a rating</p>
+    <input id="reviewName" placeholder="Your Name">
+    <textarea id="reviewMsg" placeholder="Write your review..."></textarea>
+    <button class="btn btn-accent" onclick="submitReview()">Submit Review</button>
+  </div>
+
+  <div class="reviews-list" id="reviewsList"></div>
+</section>
+
+<section class="contact">
+  <h2>Let's Build Your Website</h2>
+  <input id="name" placeholder="Aap ka naam">
+  <input id="business" placeholder="Business name">
+  <textarea id="msg" placeholder="Konsi website chahiye?"></textarea>
+  <button class="btn btn-accent" onclick="sendWhatsApp()">WhatsApp Par Bhejo</button>
+</section>
+
+<section class="get-in-touch">
+  <p class="eyebrow">GET IN TOUCH</p>
+  <h2>Contact MS Meer</h2>
+  <div class="touch-cards">
+    <div class="info-card">
+      <div class="info-icon">✉️</div>
+      <h4>Email</h4>
+      <p class="info-link"><a href="mailto:sananone16@gmail.com">sananone16@gmail.com</a></p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">📞</div>
+      <h4>Phone</h4>
+      <p class="info-link"><a href="tel:+923410784488">0341-0784488</a></p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">📍</div>
+      <h4>Location</h4>
+      <p class="info-link">Sheikh Maltoon Town<br>Mardan</p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">💻</div>
+      <h4>Service</h4>
+      <p class="info-link">Web Design &amp; Digital Services</p>
+    </div>
+  </div>
+  <div class="cta-buttons">
+    <a class="btn btn-call" href="tel:+923410784488">📞 Call MS Meer</a>
+  </div>
+</section>
+
+<a href="https://wa.me/923410784488" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="30" height="30" fill="#fff"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.7 4.61 1.902 6.478L4 29l7.72-1.867A11.94 11.94 0 0016 27c6.627 0 12-5.373 12-12S22.628 3 16.001 3zm0 21.75a9.7 9.7 0 01-4.95-1.35l-.355-.21-4.585 1.108 1.13-4.47-.232-.367A9.71 9.71 0 016.25 15c0-5.385 4.366-9.75 9.751-9.75S25.75 9.615 25.75 15 21.385 24.75 16.001 24.75zm5.34-7.32c-.293-.146-1.734-.855-2.003-.953-.269-.098-.465-.146-.66.147-.196.293-.758.953-.93 1.148-.171.196-.342.22-.635.073-.293-.147-1.238-.456-2.358-1.454-.872-.778-1.461-1.738-1.632-2.031-.171-.293-.018-.451.128-.597.132-.132.293-.342.44-.513.147-.171.196-.293.293-.489.098-.196.049-.367-.024-.513-.073-.147-.66-1.59-.904-2.178-.238-.572-.48-.494-.66-.503-.171-.008-.367-.01-.562-.01-.196 0-.513.073-.782.367-.269.293-1.026 1.003-1.026 2.444s1.051 2.834 1.198 3.03c.147.196 2.07 3.16 5.017 4.432.701.303 1.248.484 1.675.619.704.224 1.344.192 1.85.117.564-.084 1.734-.709 1.979-1.393.244-.685.244-1.271.171-1.393-.073-.122-.269-.196-.562-.342z"/></svg>
+</a>
+
+<footer>© 2026 MS Meer Web Studio | 03410784488 | sananone16@gmail.com</footer>
+<script src="script.js"></script>
+</body>
+</html>
