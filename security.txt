@@ -1,0 +1,2 @@
+Preferred-Languages: en, ur
+Canonical: https://sananone16-blip.github.io/MS-MEER-WEB-STUDIO-/.well-known/security.txt
